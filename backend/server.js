@@ -18,6 +18,8 @@ app.use('/blog', blogRouter)
 app.use('/category', categoryRouter)
 app.use('/user', userRouter)
 
-app.listen(4000, 'localhost', () => {
-  console.log('server started at port 4000')
-})
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
