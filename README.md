@@ -10,15 +10,6 @@ Quick Blog is a **full-stack blogging application** built using **React**, **Nod
 ### 🔹 Home Page
 ![Home](./screenshots/home.png)
 
-### 🔹 category Blog
-![Category](./screensshots/categories.png)
-
-### 🔹 Create Blog
-![Create Blog](./screensshots/addblog.png)
-
-### 🔹 Create category
-![Create category](./screensshots/addcategory.png)
-
 ### 🔹 register page
 ![Register](./screenshots/register.png)
 
@@ -61,39 +52,6 @@ Quick Blog is a **full-stack blogging application** built using **React**, **Nod
 **Other Tools:**
 - Visual Studio Code
 - Git & GitHub
-
----
-
-## 📂 Project Structure
-
-\`\`\`
-quick-blog/
-├── backend/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── App.js
-│       └── index.js
-│
-├── screenshots/
-│   ├── home.png
-│   ├── addblog.png
-│   └── details.png
-│   |── home2.png
-│   ├── addcategory.png
-│   └── categories.png
-│   |── login.png
-│   ├── register.png
-│   └── categories.png
-\`\`\`
 
 ---
 
